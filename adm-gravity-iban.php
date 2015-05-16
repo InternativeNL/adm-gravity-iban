@@ -40,7 +40,7 @@ if ( class_exists( 'GFForms' ) ) {
             $fieldValue = rgpost("input_{$field['id']}");
 
             if ($field['inputMaskValue'] == "iban"){
-                if (strlen($value) == 0 && $field['isRequired'] != 1){ // If empty and field is optional continue in foreach loop
+                if (strlen($fieldValue) == 0 && $field['isRequired'] != 1){ // If empty and field is optional continue in foreach loop
                     continue;
                 } else if (strlen($fieldValue) == 0 && $field['isRequired'] == 1){ // if empty and field is required
                     $validation_result["is_valid"] = false;
