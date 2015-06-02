@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: admium, slimndap
+Contributors: admium-webdevelopment, slimndap
 Tags: iban, sepa
 Requires at least: 3.8
 Tested up to: 4.2
