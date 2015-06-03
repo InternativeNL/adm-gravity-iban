@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Gravity Forms IBAN ===
 Contributors: admium-webdevelopment, slimndap
 Tags: iban, sepa
 Requires at least: 3.8
@@ -12,7 +12,7 @@ Add an IBAN input mask and IBAN validation to your Gravity Form.
 == Description ==
 
 This plugin adds an new IBAN mask to the built-in input masks of Gravity Forms.
-Add this ask to any text field to enforce valid IBAN account numbers in your form.
+Add this mask to any text field to enforce valid IBAN account numbers in your form.
 
 This plugin uses the [php-iban](https://github.com/globalcitizen/php-iban) library to validate IBAN account numbers.
 
@@ -20,3 +20,8 @@ This plugin uses the [php-iban](https://github.com/globalcitizen/php-iban) libra
 
 1. The IBAN mask in the Gravity Forms editor.
 2. An IBAN input field in the front end.
+
+== Changelog ==
+
+= 1.0 =
+* First public version of the plugin.
