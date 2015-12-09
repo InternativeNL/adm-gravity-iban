@@ -23,5 +23,8 @@ This plugin uses the [php-iban](https://github.com/globalcitizen/php-iban) libra
 
 == Changelog ==
 
+= 1.0.1 =
+* Tested up to WP 4.4
+
 = 1.0 =
 * First public version of the plugin.
